@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    border: 5px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul {
+    border: 2px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    justify-content: right;
+
+}
+
+nav ul li {
+    margin: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: oblique;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+
+}
+
+nav ul li:hover {
+    background-color: bisque;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: right;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    
+
+
+}
+
+header h2 {
+    font-size: 35px;
+    color: bisque;
+    border: solid 1px black;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.foto {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto img {
+    margin-top: 80px;
+    align-items: center;
+    height: 300px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+.sobre {
+    font-size: 25px;
+}
+
+.hab {
+    display: flex;
+    margin-top: 50px;
+}
+
+.hab .text h1 {
+    font-size: 40px;
+}
+
+.hab .text p {
+    font-size: 30px;
+    margin-top: 30px
+}
+
+.hab img {
+    margin-top: 30px;
+    width: 500px;
+    height: 800px;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+footer {
+    border: solid 1px black;
+    margin-top: 80px;
+    background-color: gray;
+}
+
+.redes-sociais {
+    color: black;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociais p {
+    margin-right: 80px;
+}
+
+.redes-sociais a {
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+    margin-right: 80px;
+}
+
+.redes-sociais a:hover {
+    background-color: white;
+    color: black;
+}
